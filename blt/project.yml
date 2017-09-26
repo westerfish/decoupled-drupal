@@ -10,7 +10,7 @@ project:
 git:
   default_branch: master
   remotes:
-    -'docroot@svn-23659.prod.hosting.acquia.com:docroot.git'
+    - 'docroot@svn-23659.prod.hosting.acquia.com:docroot.git'
 drush:
   aliases:
     remote: '${project.machine_name}.test'
